@@ -30,51 +30,58 @@
 
         <div id="buttons">
             <button onclick="beforePerfil()"><</button>
-            <button>+</button>
+            <button onclick="openModal()">+</button>
             <button onclick="nextPerfil()">></button>
         </div>
     </section>
 
     <section id = "modal">
-        <a >X</a>
-        <div>
+        <div id = "header-modal">
+        <h2>Adicionar Novo Contado</h2>
+        <a onclick="closeModal()">X</a>
+    </div>
 
-            <h2>Adicionar Novo Candidato</h2>
+        <div id="main-modal">
+
             <form>
                 <fieldset>
                     <label for="link">Link de imagem</label>
-                    <input type="link">
+                    <input type="link" id="input-image">
                 </fieldset>
     
                 <fieldset>
                     <label for="text">Nome</label>
-                    <input type="text">
+                    <input type="text" id= "input-name">
+                </fieldset>
     
                     <fieldset>
                         <label for="text">Profissão</label>
-                        <input type="text">
+                        <input type="text" id="input-profission">
                     </fieldset>
     
                     <fieldset>
                         <label for="date">Nascimento</label>
-                        <input type="date">
+                        <input type="date" id="input-date">
                     </fieldset>
     
                     <fieldset>
                         <label for="tel">Telefone</label>
-                        <input type="tel">
+                        <input type="tel" id="input-tel">
                     </fieldset>
     
                     <fieldset>
                         <label for="email">E-mail</label>
-                        <input type="email">
+                        <input type="email" id="input-mail">
                     </fieldset>
                 </fieldset>
     
-                <button>Enviar</button>
+                <button onclick="addNewCandidato ()">Enviar</button>
             </form>
         </div>
     </section>
+
+    <div id="overflow"></div>
+
 </main>
 
 <footer>

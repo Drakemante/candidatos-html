@@ -31,6 +31,18 @@ const profissao = document.querySelector("#profissao");
 const nascimento = document.querySelector("#nascimento");
 const telefone = document.querySelector("#telefone");
 const email = document.querySelector("#email");
+const modalNewCandidato = document.querySelector("#modal");
+const overflow = document.querySelector("#overflow");
+
+const inputImage = document.querySelector("#input-image");
+const inputName = document.querySelector("input-name");
+const inputProfession = document.querySelector("input-profession");
+const inputDate = document.querySelector("input-date");
+const inputTel = document.querySelector("input-tel");
+const inputMail = document.querySelector("input-mail");
+
+
+
 
 let choice = 0
 
@@ -60,4 +72,26 @@ function beforePerfil() {
         choice--
     }
     changePerfil(choice)
+}
+function closeModal() {
+    modalNewCandidato.style.display ="none";
+    overflow.style.display = "none";
+}
+
+function openModal() {
+    modalNewCandidato.style.display = "block";
+    overflow.style.display = "block";
+}
+
+function addNewCandidato (){
+    const addNewCandidato = {
+        
+            image: inputImage.value,
+            name: inputName.value,
+            profession: inputProfession.value,
+            birth: inputDate.value,
+            phone: inputTel.value,
+            email: inputMail.value
+    }
+    candidatos.push(addNewCandidato); 
 }
