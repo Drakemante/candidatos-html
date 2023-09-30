@@ -35,11 +35,11 @@ const modalNewCandidato = document.querySelector("#modal");
 const overflow = document.querySelector("#overflow");
 
 const inputImage = document.querySelector("#input-image");
-const inputName = document.querySelector("input-name");
-const inputProfession = document.querySelector("input-profession");
-const inputDate = document.querySelector("input-date");
-const inputTel = document.querySelector("input-tel");
-const inputMail = document.querySelector("input-mail");
+const inputName = document.querySelector("#input-name");
+const inputProfession = document.querySelector("#input-profission");
+const inputDate = document.querySelector("#input-date");
+const inputTel = document.querySelector("#input-tel");
+const inputMail = document.querySelector("#input-mail");
 
 
 
