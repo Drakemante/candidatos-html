@@ -152,7 +152,7 @@ input {
     width: 169px;
 }
 
-#main-modal > form > button {
+#main-modal > form > a {
     align-self: center;
     margin-top: 40px;
 }
@@ -160,3 +160,7 @@ input {
 #header-modal > a{
     color: blueviolet;
 }
+
+
+
+/* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSB6VQEZMN6YGnUmLVq-hiItEKzKWnWv_mdY7VLC7q3AoCKOy_xuZi4mfrC6xFwW5VKsyM&usqp=CAU */

@@ -94,4 +94,6 @@ function addNewCandidato (){
             email: inputMail.value
     }
     candidatos.push(addNewCandidato); 
+
+    closeModal()
 }
