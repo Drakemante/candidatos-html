@@ -17,11 +17,11 @@ const candidatos = [
     },
     {
         image: "https://avatars.githubusercontent.com/u/109319609?v=4",
-        name: "Camila Ferraz",
-        profession: "Reporter",
-        birth: "02/08/2000",
-        phone: "(11) 99524-5247",
-        email: "ferriska@outlook.com"
+        name: "Klod",
+        profession: "Domestico",
+        birth: "20/03/2005",
+        phone: "(27) 99507-9939",
+        email: "srjamesbr@gmail.com"
     }
 ];
 
